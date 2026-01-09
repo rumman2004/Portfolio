@@ -55,7 +55,7 @@ const seedAdmin = async () => {
         console.log('📧 Email: rumman@portfolio.com');
         console.log('🔑 Password: rumman@143');
         console.log('━━━━━━━━━━━━━━━━━━━━━━━━━━━━');
-        console.log('⚠️  IMPORTANT: Change your password after first login!\n');
+        console.log('⚠️  IMPORTANT: Change your email & password after first login!\n');
 
         process.exit(0);
     } catch (error) {
