@@ -35,7 +35,7 @@ app.use((req, res, next) => {
     next();
 });
 
-app.get("/api", (req, res) => {
+app.get("/", (req, res) => {
     res.json({
         message: "Portfolio API is running",
         version: "1.0.0",
