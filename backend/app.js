@@ -22,7 +22,7 @@ app.use(
         origin: [
             process.env.CLIENT_URL,
             "http://localhost:5173", // Local dev
-            "https://your-frontend-domain.vercel.app" // Production
+            "https://portfolio-frontend-snowy-beta.vercel.app/" // Production
         ],
         credentials: true,
     })
