@@ -91,10 +91,7 @@ const Footer = () => {
         <div className="border-t border-[rgb(var(--border))] mt-8 pt-8 flex flex-col md:flex-row items-center justify-between gap-4">
           <p className="text-[rgb(var(--text-secondary))] text-sm">
             © {currentYear} Portfolio. All rights reserved.
-          </p>
-          <p className="text-[rgb(var(--text-secondary))] text-sm flex items-center gap-1">
-            Made with <Heart className="w-4 h-4 text-red-500 fill-current" /> using React & Tailwind
-          </p>
+          </p>  
         </div>
       </div>
     </footer>
