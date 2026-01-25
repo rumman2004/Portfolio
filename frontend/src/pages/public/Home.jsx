@@ -126,7 +126,7 @@ const Home = () => {
                             >
                                 Hi, I'm{' '}
                                 <span className="bg-gradient-to-r from-[rgb(var(--accent))] to-purple-500 bg-clip-text text-transparent">
-                                    {about?.name || 'Developer'}
+                                    {about?.name || 'a Developer'}
                                 </span>
                             </motion.h1>
 
